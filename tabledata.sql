@@ -534,116 +534,7 @@ insert into  discussiongroup_moderator_map values(3,'larry');
 insert into  discussiongroup_moderator_map values(4,'harry');
 insert into  discussiongroup_moderator_map values(5,'srinivas');
 
-#CLUB USER MAP
-/*
-insert into club_user_map values(	50	,	'surya'	);
-insert into club_user_map values(	51	,	'harry'	);
-insert into club_user_map values(	51	,	'larry'	);
-insert into club_user_map values(	51	,	'benson'	);
-insert into club_user_map values(	51	,	'srinivas'	);
-insert into club_user_map values(	51	,	'rajesh'	);
-insert into club_user_map values(	51	,	'shakti'	);
-insert into club_user_map values(	51	,	'midas'	);
-insert into club_user_map values(	51	,	'mozart'	);
-insert into club_user_map values(	52	,	'srinivas'	);
-insert into club_user_map values(	52	,	'rajesh'	);
-insert into club_user_map values(	52	,	'shakti'	);
-insert into club_user_map values(	52	,	'midas'	);
-insert into club_user_map values(	52	,	'mozart'	);
-insert into club_user_map values(	52	,	'susan'	);
-insert into club_user_map values(	52	,	'samson'	);
-insert into club_user_map values(	52	,	'geek'	);
-insert into club_user_map values(	53	,	'john'	);
-insert into club_user_map values(	53	,	'samson'	);
-insert into club_user_map values(	53	,	'geek'	);
-insert into club_user_map values(	53	,	'guru'	);
-insert into club_user_map values(	53	,	'anjali'	);
-insert into club_user_map values(	53	,	'richard'	);
-insert into club_user_map values(	53	,	'eileen'	);
-insert into club_user_map values(	53	,	'george'	);
-insert into club_user_map values(	53	,	'shashi'	);
-insert into club_user_map values(	53	,	'padma'	);
-insert into club_user_map values(	53	,	'peter'	);
-insert into club_user_map values(	54	,	'rajesh'	);
-insert into club_user_map values(	54	,	'shakti'	);
-insert into club_user_map values(	54	,	'midas'	);
-insert into club_user_map values(	54	,	'mozart'	);
-insert into club_user_map values(	54	,	'susan'	);
-insert into club_user_map values(	54	,	'padma'	);
-insert into club_user_map values(	54	,	'giri'	);
-insert into club_user_map values(	54	,	'peter'	);
-insert into club_user_map values(	55	,	'rajesh'	);
-insert into club_user_map values(	55	,	'shakti'	);
-insert into club_user_map values(	55	,	'midas'	);
-insert into club_user_map values(	55	,	'mozart'	);
-insert into club_user_map values(	55	,	'susan'	);
-insert into club_user_map values(	55	,	'richard'	);
-insert into club_user_map values(	55	,	'eileen'	);
-insert into club_user_map values(	55	,	'george'	);
-insert into club_user_map values(	55	,	'shashi'	);
-insert into club_user_map values(	55	,	'padma'	);
-insert into club_user_map values(	55	,	'giri'	);
-insert into club_user_map values(	55	,	'peter'	);
-insert into club_user_map values(	55	,	'tom'	);
-*/
-
-
 # ST
-
-/*
-insert into discussion_thread values(	1	,	73	,	'C Programming Interest Group	 Thread 1	',	'srinivas'	,	to_date('5/21/2019','MM/DD/YYYY')	,	'midas'	,	to_date('6/21/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	2	,	73	,	'C Programming Interest Group	 Thread 2	',	'rajesh'	,	to_date('5/21/2019','MM/DD/YYYY')	,	'mozart'	,	to_date('6/21/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	3	,	73	,	'C Programming Interest Group	 Thread 3	',	'shakti'	,	to_date('5/21/2019','MM/DD/YYYY')	,	'susan'	,	to_date('6/21/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	4	,	73	,	'C Programming Interest Group	 Thread 4	',	'midas'	,	to_date('5/21/2019','MM/DD/YYYY')	,	'john'	,	to_date('6/21/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	5	,	1	,	'C Programming Interest Group	 Thread 5	',	'mozart'	,	to_date('5/21/2019','MM/DD/YYYY')	,	'samson'	,	to_date('6/21/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	6	,	1	,	'C Programming Interest Group	 Thread 6	',	'susan'	,	to_date('5/21/2019','MM/DD/YYYY')	,	'surya'	,	to_date('6/21/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	7	,	1	,	'C Programming Interest Group	 Thread 7	',	'john'	,	to_date('5/21/2019','MM/DD/YYYY')	,	'harry'	,	to_date('6/21/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	8	,	1	,	'C Programming Interest Group	 Thread 8	',	'samson'	,	to_date('5/21/2019','MM/DD/YYYY')	,	'srinivas'	,	to_date('6/21/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	9	,	1	,	'C Programming Interest Group	 Thread 9	',	'surya'	,	to_date('5/21/2019','MM/DD/YYYY')	,	'rajesh'	,	to_date('6/21/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	10	,	1	,	'C Programming Interest Group	 Thread 10	',	'harry'	,	to_date('5/21/2019','MM/DD/YYYY')	,	'shakti'	,	to_date('6/21/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	11	,	1	,	'C Programming Interest Group	 Thread 11	',	'larry'	,	to_date('5/21/2019','MM/DD/YYYY')	,	'midas'	,	to_date('6/21/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	12	,	1	,	'C Programming Interest Group	 Thread 12	',	'benson'	,	to_date('5/21/2019','MM/DD/YYYY')	,	'mozart'	,	to_date('6/21/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	13	,	2	,	'The Music of Donovan Group	Thread 1	',	'richard'	,	to_date('5/26/2019','MM/DD/YYYY')	,	'eileen'	,	to_date('5/26/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	14	,	2	,	'The Music of Donovan Group	Thread 2	',	'eileen'	,	to_date('5/26/2019','MM/DD/YYYY')	,	'george'	,	to_date('5/26/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	15	,	2	,	'The Music of Donovan Group	Thread 3	',	'george'	,	to_date('5/26/2019','MM/DD/YYYY')	,	'shashi'	,	to_date('5/26/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	16	,	2	,	'The Music of Donovan Group	Thread 4	',	'shashi'	,	to_date('5/26/2019','MM/DD/YYYY')	,	'padma'	,	to_date('5/26/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	17	,	2	,	'The Music of Donovan Group	Thread 5	',	'padma'	,	to_date('5/26/2019','MM/DD/YYYY')	,	'giri'	,	to_date('5/26/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	18	,	2	,	'The Music of Donovan Group	Thread 6	',	'giri'	,	to_date('5/26/2019','MM/DD/YYYY')	,	'srinivas'	,	to_date('5/26/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	19	,	2	,	'The Music of Donovan Group	Thread 7	',	'srinivas'	,	to_date('5/26/2019','MM/DD/YYYY')	,	'rajesh'	,	to_date('5/26/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	20	,	2	,	'The Music of Donovan Group	Thread 8	',	'rajesh'	,	to_date('5/26/2019','MM/DD/YYYY')	,	'shakti'	,	to_date('5/26/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	21	,	2	,	'The Music of Donovan Group	Thread 9	',	'shakti'	,	to_date('5/26/2019','MM/DD/YYYY')	,	'midas'	,	to_date('5/26/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	22	,	2	,	'The Music of Donovan Group	Thread 10	',	'midas'	,	to_date('5/26/2019','MM/DD/YYYY')	,	'midas'	,	to_date('5/26/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	23	,	51	,	'C Programming Club	Thread 1	',	'mozart'	,	to_date('5/28/2019','MM/DD/YYYY')	,	'shashi'	,	to_date('5/27/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	24	,	51	,	'C Programming Club	Thread 2	',	'george'	,	to_date('5/28/2019','MM/DD/YYYY')	,	'padma'	,	to_date('5/27/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	25	,	51	,	'C Programming Club	Thread 3	',	'shashi'	,	to_date('5/28/2019','MM/DD/YYYY')	,	'giri'	,	to_date('5/27/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	26	,	51	,	'C Programming Club	Thread 4	',	'padma'	,	to_date('5/28/2019','MM/DD/YYYY')	,	'srinivas'	,	to_date('5/27/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	27	,	51	,	'C Programming Club	Thread 5	',	'giri'	,	to_date('5/28/2019','MM/DD/YYYY')	,	'rajesh'	,	to_date('5/27/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	28	,	51	,	'C Programming Club	Thread 6	',	'srinivas'	,	to_date('5/28/2019','MM/DD/YYYY')	,	'shakti'	,	to_date('5/27/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	29	,	52	,	'The Music of Donovan Club	Thread 1	',	'rajesh'	,	to_date('5/28/2019','MM/DD/YYYY')	,	'midas'	,	to_date('5/27/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	30	,	52	,	'The Music of Donovan Club	Thread 2	',	'shakti'	,	to_date('5/28/2019','MM/DD/YYYY')	,	'midas'	,	to_date('5/27/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	31	,	52	,	'The Music of Donovan Club	Thread 3	',	'midas'	,	to_date('5/29/2019','MM/DD/YYYY')	,	'srinivas'	,	to_date('5/27/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	32	,	52	,	'The Music of Donovan Club	Thread 4	',	'mozart'	,	to_date('5/29/2019','MM/DD/YYYY')	,	'rajesh'	,	to_date('5/27/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	33	,	53	,	'Electron Microscopy Club	Thread 1	',	'george'	,	to_date('5/29/2019','MM/DD/YYYY')	,	'shakti'	,	to_date('5/27/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	34	,	53	,	'Electron Microscopy Club	Thread 2	',	'shashi'	,	to_date('5/29/2019','MM/DD/YYYY')	,	'midas'	,	to_date('5/27/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	35	,	53	,	'Electron Microscopy Club	Thread 3	',	'padma'	,	to_date('5/29/2019','MM/DD/YYYY')	,	'mozart'	,	to_date('5/28/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	36	,	53	,	'Electron Microscopy Club	Thread 4	',	'giri'	,	to_date('5/29/2019','MM/DD/YYYY')	,	'george'	,	to_date('5/28/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	37	,	53	,	'Electron Microscopy Club	Thread 5	',	'srinivas'	,	to_date('5/21/2019','MM/DD/YYYY')	,	'george'	,	to_date('5/28/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	38	,	101	,	'C Programming Course Group	Thread 1	',	'shakti'	,	to_date('5/21/2019','MM/DD/YYYY')	,	'rajesh'	,	to_date('5/28/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	39	,	101	,	'C Programming Course Group	Thread 2	',	'midas'	,	to_date('5/21/2019','MM/DD/YYYY')	,	'shakti'	,	to_date('5/28/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	40	,	101	,	'C Programming Course Group	Thread 3	',	'mozart'	,	to_date('5/21/2019','MM/DD/YYYY')	,	'midas'	,	to_date('5/28/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	41	,	101	,	'C Programming Course Group	Thread 4	',	'george'	,	to_date('5/21/2019','MM/DD/YYYY')	,	'mozart'	,	to_date('5/28/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	42	,	102	,	'The Music of Donovan Course Group	Thread 1	',	'shashi'	,	to_date('5/21/2019','MM/DD/YYYY')	,	'george'	,	to_date('5/28/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	43	,	102	,	'The Music of Donovan Course Group	Thread 2	',	'padma'	,	to_date('5/21/2019','MM/DD/YYYY')	,	'shashi'	,	to_date('5/28/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	44	,	102	,	'The Music of Donovan Course Group	Thread 3	',	'giri'	,	to_date('5/25/2019','MM/DD/YYYY')	,	'padma'	,	to_date('5/29/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	45	,	102	,	'The Music of Donovan Course Group	Thread 4	',	'srinivas'	,	to_date('5/25/2019','MM/DD/YYYY')	,	'rajesh'	,	to_date('5/29/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	46	,	103	,	'Electron Microscopy Course Group	Thread 1	',	'surya'	,	to_date('5/25/2019','MM/DD/YYYY')	,	'shakti'	,	to_date('5/29/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	47	,	103	,	'Electron Microscopy Course Group	Thread 2	',	'harry'	,	to_date('5/25/2019','MM/DD/YYYY')	,	'midas'	,	to_date('5/29/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	48	,	103	,	'Electron Microscopy Course Group	Thread 3	',	'larry'	,	to_date('5/25/2019','MM/DD/YYYY')	,	'mozart'	,	to_date('5/29/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	49	,	103	,	'Electron Microscopy Course Group	Thread 4	',	'benson'	,	to_date('5/25/2019','MM/DD/YYYY')	,	'george'	,	to_date('5/29/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	50	,	103	,	'Electron Microscopy Course Group	Thread 5	',	'richard'	,	to_date('5/25/2019','MM/DD/YYYY')	,	'shashi'	,	to_date('5/29/2019','MM/DD/YYYY')	);
-*/
-
-
 insert into discussion_thread values(1,73,'C Programming Interest Group	 Thread 1','srinivas',str_to_date('5/21/2019','%m/%d/%Y'),'midas',str_to_date('6/21/2019','%m/%d/%Y'));
 insert into discussion_thread values(2,73,'C Programming Interest Group	 Thread 2','rajesh',str_to_date('5/21/2019','%m/%d/%Y'),'mozart',str_to_date('6/21/2019','%m/%d/%Y'));
 insert into discussion_thread values(3,73,'C Programming Interest Group	 Thread 3','shakti',str_to_date('5/21/2019','%m/%d/%Y'),'susan',str_to_date('6/21/2019','%m/%d/%Y'));
@@ -694,19 +585,6 @@ insert into discussion_thread values(47,103,'Electron Microscopy Course Group	Th
 insert into discussion_thread values(48,103,'Electron Microscopy Course Group	Thread 3','larry',str_to_date('5/25/2019','%m/%d/%Y'),'mozart',str_to_date('5/29/2019','%m/%d/%Y'));
 insert into discussion_thread values(49,103,'Electron Microscopy Course Group	Thread 4','benson',str_to_date('5/25/2019','%m/%d/%Y'),'george',str_to_date('5/29/2019','%m/%d/%Y'));
 insert into discussion_thread values(50,103,'Electron Microscopy Course Group	Thread 5','richard',str_to_date('5/25/2019','%m/%d/%Y'),'shashi',str_to_date('5/29/2019','%m/%d/%Y'));
-
-
-
-#################################################################
-/*
-insert into discussion_thread values(	73	,	103	,	'Electron Microscopy Course Group	Thread 3	',	'larry'	,	to_date('5/25/2019','MM/DD/YYYY')	,	'mozart'	,	to_date('5/29/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	73	,	103	,	'Electron Microscopy Course Group	Thread 4	',	'benson'	,	to_date('5/25/2019','MM/DD/YYYY')	,	'george'	,	to_date('5/29/2019','MM/DD/YYYY')	);
-insert into discussion_thread values(	73	,	103	,	'Electron Microscopy Course Group	Thread 5	',	'richard'	,	to_date('5/25/2019','MM/DD/YYYY')	,	'shashi'	,	to_date('5/29/2019','MM/DD/YYYY')	);
-
-insert into discussion_thread values(	73	,	103	,	'Electron Microscopy Course Group	Thread 3	',	'larry'	,	str_to_date('5/25/2019','%m/%d/%Y')	,	'mozart'	,	str_to_date('5/29/2019','%m/%d/%Y')	);
-insert into discussion_thread values(	73	,	103	,	'Electron Microscopy Course Group	Thread 4	',	'benson'	,	str_to_date('5/25/2019','%m/%d/%Y')	,	'george'	,	str_to_date('5/29/2019','%m/%d/%Y')	);
-insert into discussion_thread values(	73	,	103	,	'Electron Microscopy Course Group	Thread 5	',	'richard'	,	str_to_date('5/25/2019','%m/%d/%Y')	,	'shashi'	,	str_to_date('5/29/2019','%m/%d/%Y')	);
-*/
 
 
 insert into comments VALUES (	1	, 	1	,	'C Programming Interest Group 	Comment 1	'	,	'C Programming Interest Group 	Comment 1	'	);
