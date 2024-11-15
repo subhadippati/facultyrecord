@@ -1,6 +1,6 @@
 ####INSERT INTO THE TABLES####
 
-#FACULTY MAINUSER
+
 INSERT INTO MAINUSER(id,USER_NAME,UTYPE,PASSWORD) VALUES(1,'vinayak', 'FACULTY', 'vinayak');
 INSERT INTO MAINUSER(id,USER_NAME,UTYPE,PASSWORD) VALUES(2,'saychatt', 'FACULTY', 'vinayak');
 INSERT INTO MAINUSER(id,USER_NAME,UTYPE,PASSWORD) VALUES(3,'anjali', 'FACULTY', 'vinayak');
@@ -12,7 +12,7 @@ INSERT INTO MAINUSER(id,USER_NAME,UTYPE,PASSWORD) VALUES(8,'padma', 'FACULTY', '
 INSERT INTO MAINUSER(id,USER_NAME,UTYPE,PASSWORD) VALUES(9,'giri', 'FACULTY', 'vinayak');
 INSERT INTO MAINUSER(id,USER_NAME,UTYPE,PASSWORD) VALUES(10,'peter', 'FACULTY', 'vinayak');
 INSERT INTO MAINUSER(id,USER_NAME,UTYPE,PASSWORD) VALUES(11,'tom', 'FACULTY', 'vinayak');
-#STUDENT MAINUSER	
+
 INSERT INTO MAINUSER(id,USER_NAME,UTYPE,PASSWORD) VALUES(12,'surya', 'STUDENT', 'vinayak');
 INSERT INTO MAINUSER(id,USER_NAME,UTYPE,PASSWORD) VALUES(13,'harry', 'STUDENT', 'vinayak');
 INSERT INTO MAINUSER(id,USER_NAME,UTYPE,PASSWORD) VALUES(14,'larry', 'STUDENT', 'vinayak');
@@ -30,7 +30,7 @@ INSERT INTO MAINUSER(id,USER_NAME,UTYPE,PASSWORD) VALUES(25,'guru', 'STUDENT', '
 
 
 
-#STUDENT
+
 INSERT INTO STUDENT VALUES (1, 'surya', 'surya', 'narayan', 2019, 'FALL', 1, 'ENROLLED', 'NON-DEGREE', 3, NULL,'A',NULL )	;
 INSERT INTO STUDENT VALUES(2,'harry','harry','potter',2019,'SUMMER',1,'ENROLLED','FULL TIME',3, NULL, 'B','Interests Description.' )	;
 INSERT INTO STUDENT VALUES(3,'larry','larry','johnson',2019,'SUMMER',	1,'ENROLLED','FULL TIME', 2,NULL, NULL, 'Interests Description.' )	;
@@ -38,28 +38,22 @@ INSERT INTO STUDENT VALUES(4,'benson','benson','robin',2019,'SUMMER',1,'ENROLLED
 INSERT INTO STUDENT VALUES(5,'srinivas','srinivas',	'keshav',2019,'SUMMER',11111,'ENROLLED','FULL TIME',2, NULL, NULL, 'Interests Description.' )	;
 
 INSERT INTO STUDENT VALUES(6,'rajesh','rajesh','kumar',2019,'SUMMER',11111,'ENROLLED','FULL TIME',2,NULL, NULL, 'Interests Description.' )	;
-#check these....
+
 INSERT INTO STUDENT(UDID, USER_ID, FIRST_NAME, LAST_NAME, START_YEAR, SEMESTER, DATA_VISIBILITY, DEGREE_STATUS, DEGREE_TYPE, STUDENT_PHOTO, GRADE, OTHER_INTERESTS) VALUES(	7	,	'shakti'	,	'shakti'	,	'kapoor'	,	2019	,	'SUMMER'	,	11111	,	'ENROLLED'	,	'FULL TIME', NULL, NULL, 'Interests Description.' )	;
 INSERT INTO STUDENT(UDID, USER_ID, FIRST_NAME, LAST_NAME, START_YEAR, SEMESTER, DATA_VISIBILITY, DEGREE_STATUS, DEGREE_TYPE, STUDENT_PHOTO, GRADE, OTHER_INTERESTS) VALUES(	8	,	'midas'	,	'midas'	,	'something'	,	2019	,	'SUMMER'	,	11111	,	'ENROLLED'	,	'FULL TIME', NULL, NULL, 'Interests Description.' )	;
 INSERT INTO STUDENT(UDID, USER_ID, FIRST_NAME, LAST_NAME, START_YEAR, SEMESTER, DATA_VISIBILITY, DEGREE_STATUS, DEGREE_TYPE, STUDENT_PHOTO, GRADE, OTHER_INTERESTS) VALUES(	9	,	'mozart'	,	'mozart'	,	'something'	,	2019	,	'SUMMER'	,	11111	,	'ENROLLED'	,	'FULL TIME', NULL, NULL, 'Interests Description.' )	;
 INSERT INTO STUDENT(UDID, USER_ID, FIRST_NAME, LAST_NAME, START_YEAR, SEMESTER, DATA_VISIBILITY, DEGREE_STATUS, DEGREE_TYPE, STUDENT_PHOTO, GRADE, OTHER_INTERESTS) VALUES(	10,		'susan'	,	'susan'	,	'johnson'	,	2019	,	'SUMMER'	,	11111	,	'ENROLLED'	,	'FULL TIME', NULL, NULL, 'Interests Description.' )	;
 INSERT INTO STUDENT(UDID, USER_ID, FIRST_NAME, LAST_NAME, START_YEAR, SEMESTER, DATA_VISIBILITY, DEGREE_STATUS, DEGREE_TYPE, STUDENT_PHOTO, GRADE, OTHER_INTERESTS) VALUES(	11	,	'john'	,	'john'	,	'abraham'	,	2019	,	'SUMMER'	,	11111	,	'ENROLLED'	,	'FULL TIME', NULL, NULL, 'Interests Description.' )	;
 INSERT INTO STUDENT VALUES(12,'vinayak','vinayak','bhat',2019,'FALL',1,'ENROLLED','NON-DEGREE',3,NULL,'A',NULL);
-
-#INSERT INTO STUDENT VALUES(13,'test','test','blah',2019,'FALL',1,'ENROLLED','NON-DEGREE',3,NULL,'A',NULL);
-
-#INSERT INTO STUDENT VALUES(13,'test','test','testtest',2019,'FALL',1,'ENROLLED','NON-DEGREE',5,NULL,'A',NULL);
-
-#INSERT INTO STUDENT(UDID, USER_ID, FIRST_NAME, LAST_NAME, START_YEAR, SEMESTER, DATA_VISIBILITY, DEGREE_STATUS, DEGREE_TYPE, STUDENT_PHOTO, GRADE, OTHER_INTERESTS) VALUES(	12,	'sanju'	,'sanju','samson',2019,'SUMMER',11111,'ENROLLED','FULL TIME', NULL, NULL,'Interests Description.');
-
-#INSERT INTO STUDENT(UDID, USER_ID, FIRST_NAME, LAST_NAME, START_YEAR, SEMESTER, DATA_VISIBILITY, DEGREE_STATUS, DEGREE_TYPE, STUDENT_PHOTO, GRADE, OTHER_INTERESTS) VALUES(	13	,'ganesh','ganesh','acharya',2019,'SUMMER',11111,'ENROLLED','FULL TIME', NULL, NULL,'Interests Description.');
-
-#INSERT INTO STUDENT(UDID, USER_ID, FIRST_NAME, LAST_NAME, START_YEAR, SEMESTER, DATA_VISIBILITY, DEGREE_STATUS, DEGREE_TYPE, STUDENT_PHOTO, GRADE, OTHER_INTERESTS) VALUES(	14	,	'guru'	,	'guru'	,	'prasad'	,	2019	,	'SUMMER'	,	11111	,	'ENROLLED'	,	'FULL TIME', NULL, NULL, 'Interests Description.' )	;
+INSERT INTO STUDENT VALUES(13,'test','test','testtest',2019,'FALL',1,'ENROLLED','NON-DEGREE',5,NULL,'A',NULL);
+INSERT INTO STUDENT(UDID, USER_ID, FIRST_NAME, LAST_NAME, START_YEAR, SEMESTER, DATA_VISIBILITY, DEGREE_STATUS, DEGREE_TYPE, STUDENT_PHOTO, GRADE, OTHER_INTERESTS) VALUES(	12,	'sanju'	,'sanju','samson',2019,'SUMMER',11111,'ENROLLED','FULL TIME', NULL, NULL,'Interests Description.');
+INSERT INTO STUDENT(UDID, USER_ID, FIRST_NAME, LAST_NAME, START_YEAR, SEMESTER, DATA_VISIBILITY, DEGREE_STATUS, DEGREE_TYPE, STUDENT_PHOTO, GRADE, OTHER_INTERESTS) VALUES(	13	,'ganesh','ganesh','acharya',2019,'SUMMER',11111,'ENROLLED','FULL TIME', NULL, NULL,'Interests Description.');
+INSERT INTO STUDENT(UDID, USER_ID, FIRST_NAME, LAST_NAME, START_YEAR, SEMESTER, DATA_VISIBILITY, DEGREE_STATUS, DEGREE_TYPE, STUDENT_PHOTO, GRADE, OTHER_INTERESTS) VALUES(	14	,	'guru'	,	'guru'	,	'prasad'	,	2019	,	'SUMMER'	,	11111	,	'ENROLLED'	,	'FULL TIME', NULL, NULL, 'Interests Description.' )	;
 
 update student set faculty_id = 1 where user_id = 'vinayak';
 update student set faculty_id = 12 where user_id = 'surya';
 
-#FACULTY
+
 INSERT INTO FACULTY  VALUES(	1	,	'vinayak'	,	'vinayak'	,	'something'	,	2001	,	'Professor'	,	3	,	null);
 INSERT INTO FACULTY  VALUES(	2	,	'saychatt'	,	'saychatt'	,	'something'	,	2002	,	'Professor'	,	4	,	null);
 INSERT INTO FACULTY  VALUES(	3	,	'anjali'	,	'anjali'	,	'something'	,	2003	,	'Professor'	,	5	,	null);
@@ -74,7 +68,7 @@ INSERT INTO FACULTY  VALUES(	11	,	'tom'	,	'tom'	,	'something'	,	2009	,	'Professo
 INSERT INTO FACULTY  VALUES(	12	,	'surya'	,	'surya'	,	'something'	,	2010	,	'Professor'	,	13	,	null);
 
 
-#MODERATOR
+
 INSERT INTO MODERATOR VALUES (1,'surya', 'surya', 'narayan', 0);
 INSERT INTO MODERATOR VALUES (2,'vinayak', 'vinayak', 'bhat', 1);
 INSERT INTO MODERATOR VALUES (3,'larry', 'larry', 'hall', 1);
@@ -111,7 +105,7 @@ insert into student_books_and_ref_map values(5,6);
 
 
 
-#course
+
 insert into course values(	1	, 'CS787'	,	 'FALL'	,	2019	,	'C Programming'	);
 insert into course values(	2	,	'CS238'	,	 'FALL'	,	2019	,	'The Music of Donovan'	);
 insert into course values(	3	,	'CS608'	,	 'FALL'	,	2019	,	'Electron Microscopy'	);
@@ -244,7 +238,6 @@ INSERT INTO student_course_map  VALUES (	7	,	29	,50);
 
 
 
-#FACULTY COURSE
 INSERT INTO faculty_course_map  VALUES (	1	, 	1,60	);
 INSERT INTO faculty_course_map  VALUES (	1	,	2,70	);
 INSERT INTO faculty_course_map  VALUES (	1	,	3,60	);
@@ -314,7 +307,7 @@ INSERT INTO faculty_course_map  VALUES (	7	,	29,87	);
 
 
 
-#INTEREST GROUP
+ GROUP
 
 insert into discussion_group values(1, 'C Programming Interest Group','C Programming Interest Group',1,4,'GROUP',null);
 insert into discussion_group values(	2	,	'The Music of Donovan Interest Group'	,	'The Music of Donovan Interest Group'	,	1	,	4,	'GROUP'	,null	);
@@ -368,7 +361,7 @@ insert into discussion_group values(	49	,	'Journalism Interest Group'	,	'Journal
 insert into discussion_group values(	50	,	'Geology Interest Group'	,	'Geology Interest Group'	,	4	,	5,	'GROUP'	,null	);
 
 
-#CLUBS
+
 
 insert into discussion_group values(	51	,	'C Programming Club'	,	'C Programming Club'	,	1	,	4,	'CLUB'	,null	);
 insert into discussion_group values(	52	,	'The Music of Donovan Club'	,	'The Music of Donovan Club'	,	1	,	4,	'CLUB'	,null	);
@@ -421,7 +414,7 @@ insert into discussion_group values(	98	,	'Cost Accounting Club'	,	'Cost Account
 insert into discussion_group values(	99	,	'Journalism Club'	,	'Journalism Club'	,	4	,	5,	'CLUB'	,null	);
 insert into discussion_group values(	100	,	'Geology Club'	,	'Geology Club'	,	4	,	5,	'CLUB'	,null	);
 
-#COURSE GROUP
+ GROUP
 
 insert into discussion_group values(	101	,	'C Programming Course Group'	,	'C Programming Course Group'	,	1	,	4,	'COURSE'	,	1	);
 insert into discussion_group values(	102	,	'The Music of Donovan Course Group'	,	'The Music of Donovan Course Group'	,	1	,	4,	'COURSE'	,	2	);
@@ -478,7 +471,7 @@ insert into discussion_group values(	150	,	'Geology Course Group'	,	'Geology Cou
 
 #GROUP USER MAP
 
-#insert into discussiongroup_user_map values(	1	,	1	);
+insert into discussiongroup_user_map values(	1	,	1	);
 insert into discussiongroup_user_map values(	1	,	'rajesh'	);
 insert into discussiongroup_user_map values(	1	,	'shakti'	);
 insert into discussiongroup_user_map values(	1	,	'midas'	);
