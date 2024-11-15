@@ -216,21 +216,4 @@ create table club_moderator_map(
 	foreign key (moderator_id) references Moderator(user_id)
 );
 
-#####TRIGGERS#####
-/*
-create trigger student_trigger
-before INSERT on student
-for each row set @udid = new.udid;
 
-create trigger faculty_trigger
-before INSERT on faculty
-for each row set @udid = new.udid;
-
-create trigger moderator_trigger
-before INSERT on moderator
-for each row set @udid = new.udid;
-
-create trigger dgroup_trigger
-before INSERT on discussion_group
-for each row set @group_id = new.group_id;
-*/
